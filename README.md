@@ -11,6 +11,8 @@ Run:
 
 Navigate to http://localhost:3449/index.html
 
+Expected: Page renders and counter increments
+
 #### Firefox
 
 Passes ✔️
@@ -30,7 +32,7 @@ Load as extension (debug/unpacked)
 
 Navigate to http://www.example.com (extension is restricted to only run on that page)
 
-Code will render over the root element.
+Expected: Page renders and counter increments.
 
 #### Firefox
 
