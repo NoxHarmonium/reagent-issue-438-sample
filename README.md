@@ -5,6 +5,8 @@ so a fix can be verified.
 
 Suggested fix is at https://github.com/NoxHarmonium/reagent/commit/fc976a82153b0e92c73af445e0ef96291b7613e6
 
+## Tests
+
 ### Standard Browsers
 
 Run:
@@ -14,14 +16,6 @@ Run:
 Navigate to http://localhost:3449/index.html
 
 Expected: Page renders and counter increments
-
-#### Firefox
-
-Passes ✔️
-
-#### Chrome
-
-Passes ✔️
 
 ### Browser Extensions
 
@@ -36,7 +30,23 @@ Navigate to http://www.example.com (extension is restricted to only run on that 
 
 Expected: Page renders and counter increments.
 
-#### Firefox
+## Results 
+
+### Reagent 0.8.1
+
+#### Standard Browsers
+
+##### Firefox
+
+Passes ✔️
+
+#### Browser Extensions
+
+##### Chrome
+
+Passes ✔️
+
+##### Firefox
 
 Fails ❌
 
@@ -44,6 +54,28 @@ Rendering loop stops. Checking the Browser Console (CTRL + SHIFT + J) shows:
 
     TypeError: 'requestAnimationFrame' called on an object that does not implement interface Window.
 
-#### Chrome
+##### Chrome
+
+Passes ✔️
+
+### Reagent 0.8.1 with Suggested Fix Applied
+
+#### Standard Browsers
+
+##### Firefox
+
+Passes ✔️
+
+##### Chrome
+
+Passes ✔️
+
+#### Browser Extensions
+
+##### Firefox
+
+Passes ✔️
+
+##### Chrome
 
 Passes ✔️
