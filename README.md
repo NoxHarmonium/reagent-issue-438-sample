@@ -3,6 +3,8 @@
 A sample project to reproduce [Reagent issue #438](https://github.com/reagent-project/reagent/issues/438)
 so a fix can be verified.
 
+Suggested fix is at https://github.com/NoxHarmonium/reagent/commit/fc976a82153b0e92c73af445e0ef96291b7613e6
+
 ### Standard Browsers
 
 Run:
