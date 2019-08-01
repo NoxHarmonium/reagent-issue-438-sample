@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Reagent Issue 438 Sample Project",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Demonstrates an issue with Reagent 0.8.1 and requestAnimationFrame in Firefox browser extensions",
+    "description": "Extension description"
+  }
+}
