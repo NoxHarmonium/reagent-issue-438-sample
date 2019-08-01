@@ -58,10 +58,6 @@ Rendering loop stops. Checking the Browser Console (CTRL + SHIFT + J) shows:
 
     TypeError: 'requestAnimationFrame' called on an object that does not implement interface Window.
 
-##### Chrome
-
-Passes ✔️
-
 ### Reagent 0.8.1 with Suggested Fix Applied
 
 #### Standard Browsers
