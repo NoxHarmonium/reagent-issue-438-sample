@@ -36,6 +36,10 @@ Expected: Page renders and counter increments.
 
 #### Standard Browsers
 
+##### Chrome
+
+Passes ✔️
+
 ##### Firefox
 
 Passes ✔️
