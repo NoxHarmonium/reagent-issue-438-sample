@@ -28,6 +28,13 @@ Load as extension (debug/unpacked)
 
 Navigate to http://www.example.com (extension is restricted to only run on that page)
 
+#### Note for Firefox
+
+If running on Firefox the best way to use `web-ext` to get a fresh browser profile and avoid noise from other extension:
+
+    $ npx web-ext run --source-dir . --start-url https://www.example.com
+
+
 Expected: Page renders and counter increments.
 
 ## Results 
